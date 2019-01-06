@@ -1,2 +1,54 @@
 # ENG10-APR
 Automatic Parking Receipt
+
+* Design Requirements
+1. Detect if the car is there. Detects a change in color by utilising the light sensor.
+2. Determines the length of time the car is parked.
+a. Can be used with a further algorithm to calculate the price of the parking ticket for the car.
+3. Adafruit not sensitive to changes in brightness (reduced accuracy in determining if the car is there).
+a. Should detect change in colour instead of a change in brightness.
+
+* Materials
+1. Begin
+
+
+2. Senor Reading Color 
+
+(red -> blue -> red)
+
+
+
+
+3. Senor Confirming Car
+
+ ->  -> 
+When green light is on, which means something is on the parking space
+
+
+4. Finally 
+
+(Car is on the parking space)
+
+(After car leaves, the light will be off, and show the parking receipt)
+
+
+
+
+
+
+
+
+
+
+
+* Sample Output
+
+
+
+
+* Future
+o We can use a real time clock to countdown the time.
+o We can utilize different light sources (ex. laser).
+o The shape of the circuit board bothered us a lot, a smaller sized sensor would be more practical.
+o An outer protective shell for the sensor would increase durability.
+
